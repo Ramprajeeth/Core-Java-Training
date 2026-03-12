@@ -1,0 +1,146 @@
+collection
+
+dictionary 
+stack
+properties 
+vector
+hashtable
+enumeration
+
+duplicate- dissimilar value - null values  
+ 
+LIST duplicates   SET(No dupl)    MAP (Key-value)
+vector             Treset 
+arraylist          Hashset  
+linked list        linked hs
+
+
+
+vector
+1)vector is legacy class
+2)syncronaion : only one thread can 
+access vector obect at a time 
+ low performance
+3)enumeration & iterator & listiterator
+
+Arraylist 
+ Array data structure
+ AL  1.2
+ Not syncornized
+iteration is fast
+insertion and deletion operation is very fast
+Multiple thread can access AL Object and
+ No performance issue
+iterator and list iterator
+Array list consume less memory
+duplicate null dissimilar values
+iterator and list iteratro
+
+
+linked list 
+uses linked list data structure
+iteration is slow
+insert and deletion operation fast
+consumes more memory
+duplicate  
+iterator and listiterator
+ 
+
+Treeset
+1)store the element in TDS
+2)element are sorted
+3)we can add only similar object
+4)null values are not allowed
+
+hashset
+1)hs use hash table 
+2)element are unorederd
+3) we can have differnc types of object
+4)Null values are allowed on one
+
+not synchronized
+ do not allow duplicate values
+iterator - list iterator and enumeration
+
+
+1)iterator (Interface)
+forward direction
+can remove the element in colletion using iterator
+all colletion class
+
+2)list iteartor
+we can move in both forward and reverse direction
+we can add remove and replace using Li
+only available to class which List interface
+
+3)enumeration 
+legacy interface
+we cannot remove the element in enumeration
+it only legacy class 
+
+          Array list  lineked list vector
+
+Duplicate    yes     yes         yes   
+Dissimilar   Yes     Yes         Yes
+Null         Yes     Yes         Yes
+Threadsafe   No       No         Yes   
+performance  fast     fase 
+              read     in/del
+
+set
+             Treeset   hashset   linkedHS
+duplicates     NO        NO         No
+Dissimilar     NO        Yes        Yes   
+Nulllallowd    NO        Yes        Yes
+
+(Key- value)
+Map         Treemap  HashMap  LHM    HT
+Duplcatek     NO      NO       NO    NO  
+Null key      No      Yes      Yes   No
+Null values   Yes     yes      Yes   NO
+Dissimilark   NO      Yes      Yes   Yes
+dissimilarv   Yes     Yes      Yes   Yes
+
+
+
+class       Purpose  
+
+localDate Onlydate
+Localtime Onlytime 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+ 
