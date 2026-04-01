@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Raise Salary</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+    <h2>Give a Raise</h2>
+    <form th:action="@{/ui/employees/raise}" method="post" class="col-md-4">
+        <input type="hidden" name="id" th:value="${id}">
+        <div class="mb-3">
+            <label class="form-label">Percentage Increase (%)</label>
+            <input type="number" name="percentage" class="form-control" placeholder="e.g. 10" required>
+        </div>
+        <button type="submit" class="btn btn-warning">Apply Raise</button>
+        <a th:href="@{/ui/employees}" class="btn btn-secondary">Cancel</a>
+    </form>
+</body>
+</html>
